@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "MyApp",
+    "name": "Streetlight_Modelv11",
     "slug": "MyApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/street-light.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
@@ -17,12 +17,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/street-light.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.shlokz.MyApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fa57ff30-07c6-46aa-a78c-952e9221fc10"
+      }
     }
   }
 }
